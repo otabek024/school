@@ -1,0 +1,169 @@
+@media screen and (max-width: 990px){
+    nav{
+        padding: 0px 50px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        background-color: crimson;
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        text-align: center;
+        transition: 0.3s ease-in-out;      
+    }
+    nav ul li{
+        display: block;
+        margin: 60px 0px;
+        line-height: 20px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .content h3{
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .section1{
+        padding-top: 50px;
+        display: block;
+    }
+    .box1{
+        margin-left: 200px;
+        width: 600px;
+    }
+    .box2{
+        width: 600px;
+        margin-left: 200px;
+    }
+    .section2{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .content{
+        width: 700px;
+    }
+    .content h3{
+        font-size: 22px;
+        width: 700px;
+        margin: auto;
+    }
+    .content h5{
+        width: 700px;
+        margin: auto;
+    }
+    .section1{
+        width: 750px;
+        display: block;
+    }
+    .box1{
+        width: 700px;
+        margin-left: 65px;
+    }
+    .box1 img{
+        width: 600px;
+    }
+    .box2{
+        width: 600px;
+        margin-left: 75px;
+    }
+    .section2{
+        height: 120vh;
+    }
+    .section2 .rasimlar{
+        width: 600px;
+        height: 530px;
+    }
+    .section2 .bir img{
+        height: 150px;
+    }
+    .section2 .ikki img{
+        height: 150px;
+    }
+    .section2 .uch img{
+        height: 150px;
+    }
+    .section2 .tort img{
+        height: 150px;
+    }
+    .section2 .besh img{
+        height: 150px;
+    }
+    .section2 .olti img{
+        height: 150px;
+    }
+
+}
+@media screen and (max-width: 425px){
+    
+    .content{
+        width: 380px;
+    }
+    .content h3{
+        width: 330px;
+        font-size: 20px;
+    }
+    .content h5{
+        width: 330px;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .content .rasim{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 60px;
+    }
+   
+
+    
+    
+}
+@media screen and (max-width: 375px){
+    .content{
+        width: 360px;
+    }
+    .content h3{
+        width: 300px;
+        font-size: 18px;
+    }
+    .content h5{
+        width: 300px;
+        font-size: 16px;
+    }
+    .content .rasim{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 80px;
+    }
+    
+
+    
+}
+@media screen and (max-width: 320px){
+
+    .content{
+        width: 300px;
+    }
+    .content h3{
+        font-size: 14px;
+    }
+    .content h5{
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .box1{
+        width: 270px;
+    }
+    
+    
+}
